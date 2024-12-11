@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 def load_data():
-    data = pd.read_csv('data/iris.csv')
+    data = pd.read_csv('/content/AI-ML-Testing/data/iris.csv')
     X = data[['feature']]
     y = data['label']
     return train_test_split(X, y, test_size=0.2, random_state=42)
