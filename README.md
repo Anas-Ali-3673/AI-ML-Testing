@@ -1,5 +1,3 @@
-Here's a structured report on the project:
-
 # AI-ML Project Analysis Report
 
 ## Project Overview
